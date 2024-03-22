@@ -80,12 +80,12 @@ WSGI_APPLICATION = "Jornaya.wsgi.application"
 
 
 
-database = BASE_DIR / "databases/local/db.sqlite3" if os.getenv('DEBUG') == 'True' else BASE_DIR / "databases/prod/db.sqlite3"
+# database = BASE_DIR / "databases/local/db.sqlite3" if os.getenv('DEBUG') == 'True' else BASE_DIR / "databases/prod/db.sqlite3"
 
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
-         "NAME": database
+         "NAME": BASE_DIR /"db.sqlite3"
         
     }
 }
