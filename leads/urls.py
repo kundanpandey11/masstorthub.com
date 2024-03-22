@@ -1,0 +1,10 @@
+from django.urls import path
+from . import views 
+
+urlpatterns = [
+    path("", views.index, name="index"),
+    path("create_lead/<client_id>/",views.create_lead, name="create_lead" ),
+
+    #test : will be removed in production 
+    path("testenv/", views.testenv, name="testenv"),
+]

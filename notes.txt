@@ -1,0 +1,23 @@
+24278F07-C36F-50E5-426B-35103D9401A2
+24278F07-C36F-50E5-426B-35103D9401A2
+
+125CEC03-BD14-C82F-3935-75E3BDEEE1F4
+
+125CEC03-BD14-C82F-3935-75E3BDEEE1F4
+
+24278F07-C36F-50E5-426B-35103D9401A2
+
+125CEC03-BD14-C82F-3935-75E3BDEEE1F4
+
+9A619A62-C01D-F950-5512-B55F3505FEB6
+
+method post in html == "POST"
+python == "POST"
+
+superuser creds 
+admin : kundan.pandey@masstorthelpjornaya.com
+pass : cogitoergosum25
+username : kundanpandey
+
+
+sizes="(max-width: 1200px) 100vw, 1200px" src="image/Camp-LeJeune-Help-Now-Logo-1-2.png"

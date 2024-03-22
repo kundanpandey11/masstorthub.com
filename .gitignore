@@ -1,0 +1,26 @@
+# Byte-compiled Python files
+*.pyc
+__pycache__/
+
+# Django development settings
+*.log
+*.pot
+*.pyc
+db.sqlite3
+local_settings.py
+/media
+/staticfiles
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore IDE files (e.g., PyCharm, VS Code)
+.idea/
+.vscode/
+
+# Ignore virtual environment
+venv/
+.env
+
+vps.txt
+staticfiles
