@@ -24,3 +24,5 @@ venv/
 
 vps.txt
 staticfiles
+
+db.sqlite3
