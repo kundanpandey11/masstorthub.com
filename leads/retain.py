@@ -14,6 +14,10 @@ def retain(cert_url, email):
     "match_lead" : {
         "email": f"{email}"
     },
+    "retain": {
+        "reference": f"{email}",
+        "vendor": "Mass Tort Hub"
+    }
     }
     response = requests.post(cert_url, headers=headers, auth=auth, data=json.dumps(data))
     if response.status_code == 200:
