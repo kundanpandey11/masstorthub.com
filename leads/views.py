@@ -104,3 +104,6 @@ def testenv(request):
     return HttpResponse("testing env file variables")
 
 
+def privacy_policy(request):
+    return render(request, "privacy_policy.html")
+

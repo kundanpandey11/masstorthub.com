@@ -9,5 +9,5 @@ urlpatterns = [
     path("userhandle/", include("userhandle.urls"), name="userhandle"),
 ]
 
-if settings.DEBUG:
+if settings.DEBUG == True:
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
